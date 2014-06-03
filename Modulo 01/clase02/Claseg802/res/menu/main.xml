@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.area51.claseg802.MainActivity" >
+
+    <item
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/texto_menu">
+        <menu>
+
+            <!--
+            <item
+                android:icon="@drawable/ic_launcher"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="@string/texto_opciona"/>
+            <item
+                android:icon="@drawable/ic_launcher"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="@string/texto_opcionb"/>
+            <item
+                android:icon="@drawable/ic_launcher"
+                android:orderInCategory="100"
+                android:showAsAction="always"
+                android:title="@string/texto_opcionc"/>
+            -->
+        </menu>
+    </item>
+
+</menu>

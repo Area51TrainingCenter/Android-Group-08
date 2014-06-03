@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Claseg802</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- Elementos de menu -->
+	<string name="texto_menu">Menu</string>
+	<string name="texto_opciona">Opción A</string>
+	<string name="texto_opcionb">Opción B</string>
+	<string name="texto_opcionc">Opción C</string>
+	
+
+
+</resources>

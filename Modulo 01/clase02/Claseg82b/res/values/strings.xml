@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Hola soy un comentario :D -->
+    <string name="app_name">Claseg82b</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="texto_btnagrega">Agregar</string>
+    <string name="texto_txtNombre">Ingrese un nombre</string>
+
+</resources>
