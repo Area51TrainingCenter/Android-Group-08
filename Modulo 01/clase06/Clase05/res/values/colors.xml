@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity Main  -->
+    <color name="background_activity">#FFF</color>
+    <color name="vivo_color">#2088D1</color>
+    <color name="vida_color">#8D8D8D</color>
+    <color name="siguiente_color">#8D8D8D</color>
+    <color name="vod_color">#FFF</color>
+    <color name="destacado_color">#FFF</color>
+    
+    
+    <!-- Activity Program -->
+    <color name="background_program">#FFF</color>
+    <color name="title_program">#1E8AD3</color>
+    <color name="description_program">#8D8D8D</color>
+    <color name="tipo_program">#1E8AD3</color>
+    <color name="tipo_program_detalle">#8D8D8D</color>
+    
+    
+    
+    
+</resources>

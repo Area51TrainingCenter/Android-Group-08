@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Activity Main -->
+    <dimen name="padding_activity">4dp</dimen>
+    <dimen name="padding_vivo">5dp</dimen>
+    <dimen name="margin_top_vivo">4dp</dimen>
+    <dimen name="margin_bottom_vivo">4dp</dimen>
+    
+    <dimen name="vod_padding_top">5dp</dimen>
+    <dimen name="vod_padding_left">15dp</dimen>
+    <dimen name="vod_padding_right">15dp</dimen>
+    <dimen name="vod_padding_bottom">5dp</dimen>
+    
+    <dimen name="destacado_padding_top">5dp</dimen>
+    <dimen name="destacado_padding_bottom">5dp</dimen>
+    <dimen name="destacado_margin_bottom">5dp</dimen>
+    
+    <!-- Activity Program -->
+    <dimen name="padding_program">4dp</dimen>
+    <dimen name="padding_top_program">4dp</dimen>
+    <dimen name="padding_right_program">10dp</dimen>
+    <dimen name="padding_bottom_program">4dp</dimen>
+    <dimen name="padding_left_program">10dp</dimen>
+    
+    
+    
+    
+    
+    
+    
+
+</resources>
