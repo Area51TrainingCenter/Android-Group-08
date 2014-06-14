@@ -5,8 +5,8 @@
     android:background="@color/background_program" >
 
     <ScrollView
-        android:id="@+id/scrollView1"
-        android:layout_width="wrap_content"
+        android:id="@+id/scrolitoItem"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
         <LinearLayout
@@ -16,7 +16,7 @@
             android:padding="@dimen/padding_program" >
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/imageItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -32,7 +32,7 @@
                 android:paddingTop="@dimen/padding_top_program" >
 
                 <TextView
-                    android:id="@+id/textView1"
+                    android:id="@+id/nameItem"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/program_title"
@@ -50,7 +50,6 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/program_description"
@@ -72,7 +71,6 @@
                     android:layout_height="wrap_content" >
 
                     <TextView
-                        android:id="@+id/TextView07"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margin_bottom_tipo"
@@ -82,7 +80,6 @@
                         android:textColor="@color/tipo_program" />
 
                     <TextView
-                        android:id="@+id/TextView08"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -97,7 +94,6 @@
                     android:layout_height="wrap_content" >
 
                     <TextView
-                        android:id="@+id/TextView05"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margin_bottom_tipo"
@@ -107,7 +103,6 @@
                         android:textColor="@color/tipo_program" />
 
                     <TextView
-                        android:id="@+id/TextView06"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/clasificacion_texto_detalle"
@@ -121,7 +116,6 @@
                     android:layout_height="wrap_content" >
 
                     <TextView
-                        android:id="@+id/TextView01"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margin_bottom_tipo"
@@ -131,7 +125,6 @@
                         android:textColor="@color/tipo_program" />
 
                     <TextView
-                        android:id="@+id/TextView02"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/genero_texto_detalle"
@@ -144,7 +137,6 @@
                     android:layout_height="wrap_content" >
 
                     <TextView
-                        android:id="@+id/TextView04"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margin_bottom_tipo"
@@ -154,7 +146,6 @@
                         android:textColor="@color/tipo_program" />
 
                     <TextView
-                        android:id="@+id/TextView03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/grupo_texto_detalle"
@@ -164,6 +155,11 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <com.area51.grupo08.custom.VideoListview
+                android:id="@+id/videoListview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

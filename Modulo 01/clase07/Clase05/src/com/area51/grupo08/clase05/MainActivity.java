@@ -3,8 +3,12 @@ package com.area51.grupo08.clase05;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ScrollView;
 
 import com.area51.grupo08.adapters.ProgramAdapter;
@@ -72,6 +76,31 @@ public class MainActivity extends Activity {
 
 					}
 				});
+
+		// Evento clic del gridview
+		gridview.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> arg0, View arg1,
+					int position, long arg3) {
+
+				Intent intent = new Intent(MainActivity.this,
+						ProgramActivity.class);
+
+				// Usamos un Bundle para guardar la posición
+				// al que le hicimos clic
+				Bundle b = new Bundle();
+				b.putInt("position", position);
+
+				// Asignamos al intent la variable Bundle
+				intent.putExtras(b);
+
+				// Iniciamos el cambio de actividad
+				startActivity(intent);
+
+			}
+
+		});
 
 	}
 
