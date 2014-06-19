@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.area51.mundial.MainActivity" >
+
+    <item
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="M">
+        <menu>
+            <item
+                android:id="@+id/btnagrega"
+                android:showAsAction="always"
+                android:title="Agregar Equipo"/>
+            <item
+                android:id="@+id/btnsalir"
+                android:showAsAction="always"
+                android:title="Salir"/>
+        </menu>
+    </item>
+
+</menu>
