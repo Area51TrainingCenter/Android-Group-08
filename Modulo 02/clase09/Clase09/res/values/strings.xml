@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase09</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Textos para los controles -->
+    <string name="texto_usuario">Usuario: </string>
+    <string name="texto_clave">Clave: </string>
+    <string name="texto_boton">Ingresar</string>
+    <string name="texto_registro">Registrarse</string>
+    <string name="texto_nombre">Nombre: </string>
+    <string name="texto_boton_graba">Registrarse</string>
+    
+    <!-- Textos para las propiedades hint de los controles -->
+    <string name="texto_usuario_hint">Ingrese su usuario</string>
+    <string name="texto_clave_hint">Ingrese su clave</string>
+    <string name="texto_nombre_hint">Ingrese su nombre</string>
+
+</resources>
