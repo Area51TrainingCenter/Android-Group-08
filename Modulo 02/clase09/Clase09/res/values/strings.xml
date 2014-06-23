@@ -18,5 +18,17 @@
     <string name="texto_usuario_hint">Ingrese su usuario</string>
     <string name="texto_clave_hint">Ingrese su clave</string>
     <string name="texto_nombre_hint">Ingrese su nombre</string>
+    
+    <!-- Textos para mensajes de error -->
+    <string name="error_logueo">Los datos ingresados son inválidos!!</string>
+    <string name="error_usuario">Hubo un problema, revisa los datos ingresados.</string>
+    <string name="error_usuario_registro">Hubo un problema, revisa los datos ingresados.</string>
+    <string name="error_usuario_existente">Ya existe ese usuario, intente con otro usuario.</string>
+    <string name="registro_usuario">Usuario ingresado correctamente.</string>
+    <string name="registro_usuario_error">Hubo un problema, inténtelo nuevamente.</string>
+        
+    
+    
+    
 
 </resources>

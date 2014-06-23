@@ -19,13 +19,16 @@ public class Constants {
 
 	
 	public static String CREATE_TABLE = "CREATE TABLE " + TABLE_USUARIOS 
-			+ "( " + COL_USUARIO_ID + " int primary key autoincrement , " 
+			+ "( " + COL_USUARIO_ID + " integer primary key autoincrement , " 
 			+ COL_USUARIO_NOMBRE + " text , " + 
 			COL_USUARIO_USUARIO	+ " text , " +
 			COL_USUARIO_CLAVE	+ " text  )";
 	
 	public static String DROP_TABLE = "DROP TABLE " + TABLE_USUARIOS;
 	
+	public static String TAG_APP = "LOGUEO";
+	public static String textoUsuario = "";
+	public static int registroUsuario = 0;
 	
 		
 

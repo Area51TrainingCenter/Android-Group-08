@@ -80,6 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:onClick="registroUsuario"
         android:text="@string/texto_boton_graba" />
 
 </LinearLayout>
