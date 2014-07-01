@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="app_background">#FFF</color>
+    <color name="menu_background">#000</color>
+    <color name="menu_text">#FFF</color>
+    
+</resources>

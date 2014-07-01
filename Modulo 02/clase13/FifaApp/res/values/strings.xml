@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FifaApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+        
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_graficas">Graficas</string>
+    <string name="menu_grupos">Grupos</string>
+    <string name="menu_configuration">Configuración</string>
+    
+    
+    <string name="grupo_texto">Grupo:</string>
+    <string name="victoria_texto">Victorias:</string>
+    <string name="empate_texto">Empates:</string>
+    <string name="derrota_texto">Derrotas:</string>
+    <string name="cargando">Cargando...</string>
+
+</resources>
