@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:showAsAction="always"
+        android:title="@string/menu">
+        <menu>
+            <item
+                android:id="@+id/btnnormal"
+                android:showAsAction="always"
+                android:title="@string/btnnormal"/>
+            <item
+                android:id="@+id/btnhibrido"
+                android:showAsAction="always"
+                android:title="@string/btnhibrido"/>
+            <item
+                android:id="@+id/btnsatelite"
+                android:showAsAction="always"
+                android:title="@string/btnsatelite"/>
+            <item
+                android:id="@+id/btnterreno"
+                android:showAsAction="always"
+                android:title="@string/btnterreno"/>
+            <item
+                android:id="@+id/btnfrances"
+                android:showAsAction="always"
+                android:title="@string/frances"/>
+            <item
+                android:id="@+id/btnespanol"
+                android:showAsAction="always"
+                android:title="@string/espanol"/>
+            
+            
+            
+        </menu>
+    </item>
+
+</menu>

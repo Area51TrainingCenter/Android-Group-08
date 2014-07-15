@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMaps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu">Tipo</string>
+    <string name="btnnormal">Normal</string>
+    <string name="btnhibrido">Hibrido</string>
+    <string name="btnterreno">Terreno</string>
+    <string name="btnsatelite">Satelital</string>
+    <string name="ubicacion">Aquì estoy!!!</string>
+    <string name="descripcion">En este lugar enseñan bonito, 
+        						sobre todo android :D</string>
+    <string name="mensaje">Cargado Ruta</string>
+    <string name="frances">Francés</string>
+    <string name="espanol">Español</string>
+
+</resources>
